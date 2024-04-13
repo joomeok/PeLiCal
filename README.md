@@ -1,4 +1,4 @@
-# PeLiCal
+# PeLiCal (ICRA 2024)
 
 ## Code will be uploaded soon!
 

@@ -6,7 +6,7 @@
     <em>Thanks to Dall-E for creating the mascot of PeLiCal!</em>
 </p>
 
-This repository contains the code for PeLiCal, **targetless extrinsic calibration for RGB-D cameras with limited co-visibility**, which is accepted to ICRA 2024. PeLiCal leverages real-time line features from the environment for estimating the relative pose between cameras. To deal with the challenging configuration of cameras, we derive **model-based approach** for adding reliable feature and rejecting outliers. Also, we robustly estimate pose by merging two types of constraints into **quadratic system**. Here are simple demo video for calibrating two RealSense D435i cameras with 60 degree apart.
+This repository contains the code for PeLiCal, **targetless extrinsic calibration for RGB-D cameras with limited co-visibility**, which is accepted to ICRA 2024. PeLiCal leverages real-time line features from the environment for estimating the relative pose between cameras. To deal with the challenging configuration of cameras, we derive **model-based approach** for adding reliable feature and rejecting outliers. Also, we robustly estimate pose by merging two types of constraints into **quadratic system**. 
 
 
 

@@ -69,7 +69,6 @@ First, launch your own data (aligned depth image from RealSense-ROS), for exampl
 
 ```bash
 roslaunch realsense2_camera rs_camera.launch align_depth:=true camera:=cam_1 serial_no:=<serial number of the first camera>
-
 roslaunch realsense2_camera rs_camera.launch align_depth:=true camera:=cam_2 serial_no:=<serial number of the second camera>
 ```
 Then, open another terminal and execute following command:

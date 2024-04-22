@@ -1,0 +1,11 @@
+<launch>
+    <!-- Start the calibration_node in the rgbd_cal package -->
+    <rosparam file="/home/jaeho/PeLiCal/src/rgbd-cal/config/Calibrator.yaml" command="load"/>
+    <node name="calibration_node" pkg="pelical" type="calibration_node" output="screen">
+    </node>
+
+    <!-- Start the detect_line.py node in the gluestick_detection package -->
+    <node name="detect_line_node" pkg="line_detection" type="detect_line.py" output="screen">
+    </node>
+</launch>
+

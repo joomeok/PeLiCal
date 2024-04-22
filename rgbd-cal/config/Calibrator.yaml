@@ -1,0 +1,19 @@
+image_width: 640
+image_height: 480
+source_rgb: "/cam_1/color/image_raw"
+source_depth: "/cam_1/aligned_depth_to_color/image_raw"
+target_rgb: "/cam_2/color/image_raw"
+target_depth: "/cam_2/aligned_depth_to_color/image_raw"
+
+voting_eps: 7.0
+voting_thresh: 6
+minimum_line_num: 15
+convergency_cost: 10.0
+
+target_intrinsic: 
+  data: [599.679256, 0.000000, 320.187940, 0.000000, 600.098148, 244.389703,0,0,1]
+
+source_intrinsic:
+  data: [598.330788, 0.000000, 316.565022,0.000000, 598.405846, 232.152461,0,0,1]
+
+gluestick_root: "/home/jaeho/GlueStick/"

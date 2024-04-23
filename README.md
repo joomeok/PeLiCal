@@ -88,6 +88,7 @@ We offer 4 parameters for tuning the performance of the algorithm in accordance 
 ## Demo Video
 Here are simple demo video for calibrating two RealSense D435i cameras with 60 degree apart.
 
+[![](./rgbd-cal/assets/thumbnail2.jpg)](https://youtu.be/CCN59GRztcA "Click to play on Youtube.com")
 
 ## BibTex
 ```

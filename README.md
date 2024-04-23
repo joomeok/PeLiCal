@@ -8,11 +8,12 @@
 
 This repository contains the code for PeLiCal, **targetless extrinsic calibration for RGB-D cameras with limited co-visibility**, which is accepted to ICRA 2024. PeLiCal leverages real-time line features from the environment for estimating the relative pose between cameras. To deal with the challenging configuration of cameras, we derive **model-based approach** for adding reliable feature and rejecting outliers. Also, we robustly estimate pose by merging two types of constraints into **quadratic system**. 
 
+[[arXiv]](https://arxiv.org/abs/2404.13949) [[BibTex]](#bibtex)
+
+[![](./rgbd-cal/assets/thumbnail1.png)](https://www.youtube.com/watch?v=biF-KuWmgq8 "Click to play on Youtube.com")
 
 
 
-
-[[BibTex]](#bibtex)
 
 ## News
 - 24.04.22 We released an inital version of PeLiCal! 
@@ -83,6 +84,10 @@ We offer 4 parameters for tuning the performance of the algorithm in accordance 
  - `voting_thresh`: Convergency threshold for translation candidates
  - `minimum_line_num`: Minimum number of lines for terminating the algorithm
  - `convergency_cost`: Convergency thershold for terminating the algorithm
+  
+## Demo Video
+Here are simple demo video for calibrating two RealSense D435i cameras with 60 degree apart.
+
 
 ## BibTex
 ```
@@ -96,3 +101,4 @@ Lines for RGB-D Cameras with Limited Co-visibility },
     ADDRESS = { Yokohama },  
 }
 ```
+
